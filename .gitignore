@@ -1,0 +1,18 @@
+# Thư mục cài đặt thư viện (rất nặng, mỗi máy tự chạy npm install)
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# File chứa thông tin nhạy cảm / bí mật (TUYỆT ĐỐI KHÔNG ĐẨY LÊN GIT)
+.env
+backend/.env
+frontend/.env
+*.env.local
+
+# File build sinh tự động của Vite / React
+frontend/dist/
+frontend/build/
+
+# File rác của hệ điều hành / trình soạn thảo
+.DS_Store
+Thumbs.db
